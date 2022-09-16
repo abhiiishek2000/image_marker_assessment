@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734171874812",
+    "project_id": "image-marker-d356c",
+    "storage_bucket": "image-marker-d356c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734171874812:android:3a712393975c4255ce9e79",
+        "android_client_info": {
+          "package_name": "com.example.image_marker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734171874812-76f0pogqcu9pg4pr7dd3hnnef093bi7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ2bCTTbA6-qzrGWn6oD-MdkPkhx8TKg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734171874812-76f0pogqcu9pg4pr7dd3hnnef093bi7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
