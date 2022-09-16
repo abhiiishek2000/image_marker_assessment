@@ -66,7 +66,7 @@ class _ImageListWidgetState extends State<ImageListWidget> {
                             errorWidget: (context, url, error) => Icon(Icons.error),
                           )),
                         const SizedBox(height: 4),
-                        Text(markerImagesdocs[index]['isMark'] ? 'Marked' :'Not Marketed',style: Theme.of(context).textTheme.caption,),
+                        Text(markerImagesdocs[index]['isMark'] ? 'Marked' :'Not Marked',style: Theme.of(context).textTheme.caption,),
                         const SizedBox(height: 4),
                         Text(markerImagesdocs[index]['name'],overflow:TextOverflow.ellipsis,style: Theme.of(context).textTheme.bodyText1,),
                         const SizedBox(height: 4),
