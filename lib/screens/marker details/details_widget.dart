@@ -27,8 +27,17 @@ class _MarkerDetailsWidgetState extends State<MarkerDetailsWidget> {
         title: const Text("Details"),
         elevation: 0,
         actions: [
-          ElevatedButton(onPressed: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>AddMarkerScreen(sourceImage: widget.imgUrl, id: widget.id))),
-              child: Text('Add Mark',style: TextStyle(color: Colors.white)))
+          Column(
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(onPressed: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>AddMarkerScreen(sourceImage: widget.imgUrl, id: widget.id))),
+                  style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all(Colors.green)
+                  ),
+                  child: Text('Add Mark',style: TextStyle(color: Colors.white))),
+            ],
+          ),
         ],
       ),
       body: Padding(
